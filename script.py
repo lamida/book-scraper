@@ -4,6 +4,7 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import json
+from datetime import datetime
 
 
 class Product:
@@ -28,10 +29,14 @@ class Product:
     def rrp(self, rrp):
         self.rrp = rrp
 
+    def last_update(self, last_update):
+        self.last_update = last_update
+
 
 def get_bd_meta(url, html):
     product = Product()
     product.url(url)
+    product.last_update(datetime.now().isoformat())
 
     bs = BeautifulSoup(html.read(), 'html.parser')
     prices = bs.findAll('span', {'class': 'sale-price'})
@@ -50,6 +55,7 @@ def get_bd_meta(url, html):
 def get_amazon_meta(url, html):
     product = Product()
     product.url(url)
+    product.last_update(datetime.now().isoformat())
 
     bs = BeautifulSoup(html.read(), 'html.parser')
     prices = bs.findAll('span', {'class': 'offer-price'})
@@ -93,6 +99,7 @@ def load_db():
                 product.last_price(p.get('last_price'))
                 product.min_price(p.get('min_price'))
                 product.rrp(p.get('rrp'))
+                product.last_update(p.get('last_update'))
 
                 db[p['url']] = product
     except Exception as e:
