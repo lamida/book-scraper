@@ -1,0 +1,196 @@
+{
+    "https://bookdepository.com/Architecture-Patterns-with-Python-Harry-J-W-Percival/9781492052203": {
+        "min_price": "$60.21",
+        "name": "Architecture Patterns with Python : Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices",
+        "price": "$60.21",
+        "url": "https://bookdepository.com/Architecture-Patterns-with-Python-Harry-J-W-Percival/9781492052203"
+    },
+    "https://bookdepository.com/BPF-Performance-Tools-Brendan-Gregg/9780136554820": {
+        "min_price": "$79.18",
+        "name": "BPF Performance Tools",
+        "price": "$79.18",
+        "rrp": "$86.79",
+        "url": "https://bookdepository.com/BPF-Performance-Tools-Brendan-Gregg/9780136554820"
+    },
+    "https://bookdepository.com/Bogleheads-Guide-Investing-Taylor-Larimore/9781118921289": {
+        "min_price": "$29.61",
+        "name": "The Bogleheads' Guide to Investing",
+        "price": "$29.61",
+        "url": "https://bookdepository.com/Bogleheads-Guide-Investing-Taylor-Larimore/9781118921289"
+    },
+    "https://bookdepository.com/Brave-Learner-Julie-Bogart/9780143133223": {
+        "min_price": "$21.30",
+        "name": "The Brave Learner : Finding Everyday Magic in Homeschool, Learning, and Life",
+        "price": "$21.30",
+        "url": "https://bookdepository.com/Brave-Learner-Julie-Bogart/9780143133223"
+    },
+    "https://bookdepository.com/Brothers-Karamazov-Fyodor-Dostoevsky/9780099922803": {
+        "min_price": "$23.21",
+        "name": "The Brothers Karamazov",
+        "price": "$23.21",
+        "url": "https://bookdepository.com/Brothers-Karamazov-Fyodor-Dostoevsky/9780099922803"
+    },
+    "https://bookdepository.com/Building-Secure-Reliable-Systems-Ana-Oprea/9781492083122": {
+        "min_price": "$80.50",
+        "name": "Building Secure and Reliable Systems : Best Practices for Designing, Implementing, and Maintaining Systems",
+        "price": "$80.50",
+        "url": "https://bookdepository.com/Building-Secure-Reliable-Systems-Ana-Oprea/9781492083122"
+    },
+    "https://bookdepository.com/Bullet-Journal-Method-Ryder-Carroll/9780008261375": {
+        "min_price": "$25.07",
+        "name": "The Bullet Journal Method : Track Your Past, Order Your Present, Plan Your Future",
+        "price": "$25.07",
+        "url": "https://bookdepository.com/Bullet-Journal-Method-Ryder-Carroll/9780008261375"
+    },
+    "https://bookdepository.com/Capital-Twenty-First-Century-Thomas-Piketty/9780674430006": {
+        "min_price": "$63.76",
+        "name": "Capital in the Twenty-First Century",
+        "price": "$63.76",
+        "rrp": "$36.29",
+        "url": "https://bookdepository.com/Capital-Twenty-First-Century-Thomas-Piketty/9780674430006"
+    },
+    "https://bookdepository.com/Cloud-Native-Boris-Scholl/9781492053828": {
+        "min_price": "$58.74",
+        "name": "Cloud Native : Using containers, functions, and data to build next-generation applications",
+        "price": "$58.74",
+        "url": "https://bookdepository.com/Cloud-Native-Boris-Scholl/9781492053828"
+    },
+    "https://bookdepository.com/Cloud-Native-Designing-change-tolerant-software-Cornelia-Davis/9781617294297": {
+        "min_price": "$62.00",
+        "name": "Cloud Native - Designing change-tolerant software",
+        "price": "$62.00",
+        "url": "https://bookdepository.com/Cloud-Native-Designing-change-tolerant-software-Cornelia-Davis/9781617294297"
+    },
+    "https://bookdepository.com/Cloud-Native-DevOps-with-Kubernetes-John-Arundel/9781492040767": {
+        "min_price": "$69.34",
+        "name": "Cloud Native DevOps with Kubernetes : Building, Deploying, and Scaling Modern Applications in the Cloud",
+        "price": "$69.34",
+        "url": "https://bookdepository.com/Cloud-Native-DevOps-with-Kubernetes-John-Arundel/9781492040767"
+    },
+    "https://bookdepository.com/Database-Internals-Alex-Petrov/9781492040347": {
+        "min_price": "$61.62",
+        "name": "Database Internals : A Deep-Dive Into How Distributed Data Systems Work",
+        "price": "$61.62",
+        "url": "https://bookdepository.com/Database-Internals-Alex-Petrov/9781492040347"
+    },
+    "https://bookdepository.com/Fundamentals-Software-Architecture-Mark-Richards/9781492043454": {
+        "last_price": "$71.27",
+        "min_price": "$71.27",
+        "name": "Fundamentals of Software Architecture : An Engineering Approach",
+        "price": "$71.27",
+        "url": "https://bookdepository.com/Fundamentals-Software-Architecture-Mark-Richards/9781492043454"
+    },
+    "https://bookdepository.com/HBRs-10-Must-Reads-on-Managing-Yourself-with-bonus-article-How-Will-You-Measure-Your-Life-by-Clayton-M-Christensen-Peter-F-Drucker/9781422157992": {
+        "min_price": "$25.62",
+        "name": "HBR's 10 Must Reads on Managing Yourself (with bonus article \"How Will You Measure Your Life?\" by Clayton M. Christensen)",
+        "price": "$25.62",
+        "rrp": "$177.89",
+        "url": "https://bookdepository.com/HBRs-10-Must-Reads-on-Managing-Yourself-with-bonus-article-How-Will-You-Measure-Your-Life-by-Clayton-M-Christensen-Peter-F-Drucker/9781422157992"
+    },
+    "https://bookdepository.com/Happiness-Hypothesis-Jonathan-Haidt/9780465028023": {
+        "min_price": "$23.68",
+        "name": "The Happiness Hypothesis : Finding Modern Truth in Ancient Wisdom",
+        "price": "$23.68",
+        "url": "https://bookdepository.com/Happiness-Hypothesis-Jonathan-Haidt/9780465028023"
+    },
+    "https://bookdepository.com/Hyperion-Dan-Simmons/9780553283686": {
+        "min_price": "$11.91",
+        "name": "Hyperion",
+        "price": "$11.91",
+        "url": "https://bookdepository.com/Hyperion-Dan-Simmons/9780553283686"
+    },
+    "https://bookdepository.com/Inspired-Marty-Cagan/9781119387503": {
+        "min_price": "$28.36",
+        "name": "Inspired : How to Create Tech Products Customers Love",
+        "price": "$28.36",
+        "url": "https://bookdepository.com/Inspired-Marty-Cagan/9781119387503"
+    },
+    "https://bookdepository.com/Java-Performance-Charlie-Hunt/9780137142521": {
+        "min_price": "$86.54",
+        "name": "Java Performance",
+        "price": "$86.54",
+        "rrp": "$86.79",
+        "url": "https://bookdepository.com/Java-Performance-Charlie-Hunt/9780137142521"
+    },
+    "https://bookdepository.com/Learning-Kali-Linux-Ric-Messier/9781492028697": {
+        "min_price": "$53.64",
+        "name": "Learning Kali Linux : Security Testing, Penetration Testing & Ethical Hacking",
+        "price": "$53.64",
+        "url": "https://bookdepository.com/Learning-Kali-Linux-Ric-Messier/9781492028697"
+    },
+    "https://bookdepository.com/Little-Book-Common-Sense-Investing-John-C-Bogle/9781119404507": {
+        "min_price": "$25.41",
+        "name": "The Little Book of Common Sense Investing : The Only Way to Guarantee Your Fair Share of Stock Market Returns",
+        "price": "$25.41",
+        "rrp": "$34.95",
+        "url": "https://bookdepository.com/Little-Book-Common-Sense-Investing-John-C-Bogle/9781119404507"
+    },
+    "https://bookdepository.com/Managing-Humans-Michael-Lopp/9781484221570": {
+        "min_price": "$42.14",
+        "name": "Managing Humans : Biting and Humorous Tales of a Software Engineering Manager",
+        "price": "$42.14",
+        "url": "https://bookdepository.com/Managing-Humans-Michael-Lopp/9781484221570"
+    },
+    "https://bookdepository.com/Metasploit-Jr-David-Kennedy/9781593272883": {
+        "min_price": "$49.78",
+        "name": "Metasploit",
+        "price": "$49.78",
+        "url": "https://bookdepository.com/Metasploit-Jr-David-Kennedy/9781593272883"
+    },
+    "https://bookdepository.com/Mind-for-Numbers-Barbara-Oakley/9780399165245": {
+        "min_price": "$20.48",
+        "name": "A Mind for Numbers : How to Excel at Math and Science (Even If You Flunked Algebra)",
+        "price": "$20.48",
+        "url": "https://bookdepository.com/Mind-for-Numbers-Barbara-Oakley/9780399165245"
+    },
+    "https://bookdepository.com/Python-for-DevOps-Noah-Gift/9781492057697": {
+        "min_price": "$59.97",
+        "name": "Python for DevOps : Learn Ruthlessly Effective Automation",
+        "price": "$59.97",
+        "url": "https://bookdepository.com/Python-for-DevOps-Noah-Gift/9781492057697"
+    },
+    "https://bookdepository.com/Random-Walk-Down-Wall-Street-Burton-G-Malkiel/9781324002185": {
+        "min_price": "$37.91",
+        "name": "A Random Walk Down Wall Street : The Time-Tested Strategy for Successful Investing",
+        "price": "$37.91",
+        "url": "https://bookdepository.com/Random-Walk-Down-Wall-Street-Burton-G-Malkiel/9781324002185"
+    },
+    "https://bookdepository.com/Release-It-Design-Deploy-Production-Ready-Software-Michael-T-Nygard/9781680502398": {
+        "min_price": "$46.42",
+        "name": "Release It! Design and Deploy Production-Ready Software",
+        "price": "$46.42",
+        "rrp": "$42.62",
+        "url": "https://bookdepository.com/Release-It-Design-Deploy-Production-Ready-Software-Michael-T-Nygard/9781680502398"
+    },
+    "https://bookdepository.com/Simple-Path-Wealth-J-L-COLLINS/9781533667922": {
+        "min_price": "$29.94",
+        "name": "The Simple Path to Wealth : Your Road Map to Financial Independence and a Rich, Free Life",
+        "price": "$29.94",
+        "url": "https://bookdepository.com/Simple-Path-Wealth-J-L-COLLINS/9781533667922"
+    },
+    "https://bookdepository.com/Terraform-Up-Running-Yevgeniy-Brikman/9781492046905": {
+        "min_price": "$59.26",
+        "name": "Terraform: Up & Running : Writing Infrastructure as Code",
+        "price": "$59.26",
+        "url": "https://bookdepository.com/Terraform-Up-Running-Yevgeniy-Brikman/9781492046905"
+    },
+    "https://bookdepository.com/Upheaval-Jared-Diamond/9780241003435": {
+        "min_price": "$33.33",
+        "name": "Upheaval : How Nations Cope with Crisis and Change",
+        "price": "$33.33",
+        "url": "https://bookdepository.com/Upheaval-Jared-Diamond/9780241003435"
+    },
+    "https://bookdepository.com/Writing-Down-Bones-Natalie-Goldberg/9781611803082": {
+        "min_price": "$15.88",
+        "name": "Writing Down The Bones : Freeing the Writer Within",
+        "price": "$15.88",
+        "url": "https://bookdepository.com/Writing-Down-Bones-Natalie-Goldberg/9781611803082"
+    },
+    "https://www.amazon.sg/Fundamentals-Software-Architecture-Engineering-Approach/dp/1492043451": {
+        "last_price": "S$74.06",
+        "min_price": "S$74.06",
+        "name": "Fundamentals of Software Architecture: An Engineering Approach",
+        "price": "S$74.06",
+        "url": "https://www.amazon.sg/Fundamentals-Software-Architecture-Engineering-Approach/dp/1492043451"
+    }
+}
