@@ -1,11 +1,13 @@
 {
     "https://bookdepository.com/Architecture-Patterns-with-Python-Harry-J-W-Percival/9781492052203": {
+        "last_price": "$60.21",
         "min_price": "$60.21",
         "name": "Architecture Patterns with Python : Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices",
         "price": "$60.21",
         "url": "https://bookdepository.com/Architecture-Patterns-with-Python-Harry-J-W-Percival/9781492052203"
     },
     "https://bookdepository.com/BPF-Performance-Tools-Brendan-Gregg/9780136554820": {
+        "last_price": "$79.18",
         "min_price": "$79.18",
         "name": "BPF Performance Tools",
         "price": "$79.18",
@@ -13,36 +15,42 @@
         "url": "https://bookdepository.com/BPF-Performance-Tools-Brendan-Gregg/9780136554820"
     },
     "https://bookdepository.com/Bogleheads-Guide-Investing-Taylor-Larimore/9781118921289": {
+        "last_price": "$29.61",
         "min_price": "$29.61",
         "name": "The Bogleheads' Guide to Investing",
         "price": "$29.61",
         "url": "https://bookdepository.com/Bogleheads-Guide-Investing-Taylor-Larimore/9781118921289"
     },
     "https://bookdepository.com/Brave-Learner-Julie-Bogart/9780143133223": {
+        "last_price": "$21.30",
         "min_price": "$21.30",
         "name": "The Brave Learner : Finding Everyday Magic in Homeschool, Learning, and Life",
         "price": "$21.30",
         "url": "https://bookdepository.com/Brave-Learner-Julie-Bogart/9780143133223"
     },
     "https://bookdepository.com/Brothers-Karamazov-Fyodor-Dostoevsky/9780099922803": {
+        "last_price": "$23.21",
         "min_price": "$23.21",
         "name": "The Brothers Karamazov",
         "price": "$23.21",
         "url": "https://bookdepository.com/Brothers-Karamazov-Fyodor-Dostoevsky/9780099922803"
     },
     "https://bookdepository.com/Building-Secure-Reliable-Systems-Ana-Oprea/9781492083122": {
+        "last_price": "$80.50",
         "min_price": "$80.50",
         "name": "Building Secure and Reliable Systems : Best Practices for Designing, Implementing, and Maintaining Systems",
         "price": "$80.50",
         "url": "https://bookdepository.com/Building-Secure-Reliable-Systems-Ana-Oprea/9781492083122"
     },
     "https://bookdepository.com/Bullet-Journal-Method-Ryder-Carroll/9780008261375": {
+        "last_price": "$25.07",
         "min_price": "$25.07",
         "name": "The Bullet Journal Method : Track Your Past, Order Your Present, Plan Your Future",
         "price": "$25.07",
         "url": "https://bookdepository.com/Bullet-Journal-Method-Ryder-Carroll/9780008261375"
     },
     "https://bookdepository.com/Capital-Twenty-First-Century-Thomas-Piketty/9780674430006": {
+        "last_price": "$63.76",
         "min_price": "$63.76",
         "name": "Capital in the Twenty-First Century",
         "price": "$63.76",
@@ -50,24 +58,28 @@
         "url": "https://bookdepository.com/Capital-Twenty-First-Century-Thomas-Piketty/9780674430006"
     },
     "https://bookdepository.com/Cloud-Native-Boris-Scholl/9781492053828": {
+        "last_price": "$58.74",
         "min_price": "$58.74",
         "name": "Cloud Native : Using containers, functions, and data to build next-generation applications",
         "price": "$58.74",
         "url": "https://bookdepository.com/Cloud-Native-Boris-Scholl/9781492053828"
     },
     "https://bookdepository.com/Cloud-Native-Designing-change-tolerant-software-Cornelia-Davis/9781617294297": {
+        "last_price": "$62.00",
         "min_price": "$62.00",
         "name": "Cloud Native - Designing change-tolerant software",
         "price": "$62.00",
         "url": "https://bookdepository.com/Cloud-Native-Designing-change-tolerant-software-Cornelia-Davis/9781617294297"
     },
     "https://bookdepository.com/Cloud-Native-DevOps-with-Kubernetes-John-Arundel/9781492040767": {
+        "last_price": "$69.34",
         "min_price": "$69.34",
         "name": "Cloud Native DevOps with Kubernetes : Building, Deploying, and Scaling Modern Applications in the Cloud",
         "price": "$69.34",
         "url": "https://bookdepository.com/Cloud-Native-DevOps-with-Kubernetes-John-Arundel/9781492040767"
     },
     "https://bookdepository.com/Database-Internals-Alex-Petrov/9781492040347": {
+        "last_price": "$61.62",
         "min_price": "$61.62",
         "name": "Database Internals : A Deep-Dive Into How Distributed Data Systems Work",
         "price": "$61.62",
@@ -81,6 +93,7 @@
         "url": "https://bookdepository.com/Fundamentals-Software-Architecture-Mark-Richards/9781492043454"
     },
     "https://bookdepository.com/HBRs-10-Must-Reads-on-Managing-Yourself-with-bonus-article-How-Will-You-Measure-Your-Life-by-Clayton-M-Christensen-Peter-F-Drucker/9781422157992": {
+        "last_price": "$25.62",
         "min_price": "$25.62",
         "name": "HBR's 10 Must Reads on Managing Yourself (with bonus article \"How Will You Measure Your Life?\" by Clayton M. Christensen)",
         "price": "$25.62",
@@ -88,24 +101,28 @@
         "url": "https://bookdepository.com/HBRs-10-Must-Reads-on-Managing-Yourself-with-bonus-article-How-Will-You-Measure-Your-Life-by-Clayton-M-Christensen-Peter-F-Drucker/9781422157992"
     },
     "https://bookdepository.com/Happiness-Hypothesis-Jonathan-Haidt/9780465028023": {
+        "last_price": "$23.68",
         "min_price": "$23.68",
         "name": "The Happiness Hypothesis : Finding Modern Truth in Ancient Wisdom",
         "price": "$23.68",
         "url": "https://bookdepository.com/Happiness-Hypothesis-Jonathan-Haidt/9780465028023"
     },
     "https://bookdepository.com/Hyperion-Dan-Simmons/9780553283686": {
+        "last_price": "$11.91",
         "min_price": "$11.91",
         "name": "Hyperion",
         "price": "$11.91",
         "url": "https://bookdepository.com/Hyperion-Dan-Simmons/9780553283686"
     },
     "https://bookdepository.com/Inspired-Marty-Cagan/9781119387503": {
+        "last_price": "$28.36",
         "min_price": "$28.36",
         "name": "Inspired : How to Create Tech Products Customers Love",
         "price": "$28.36",
         "url": "https://bookdepository.com/Inspired-Marty-Cagan/9781119387503"
     },
     "https://bookdepository.com/Java-Performance-Charlie-Hunt/9780137142521": {
+        "last_price": "$86.54",
         "min_price": "$86.54",
         "name": "Java Performance",
         "price": "$86.54",
@@ -113,12 +130,14 @@
         "url": "https://bookdepository.com/Java-Performance-Charlie-Hunt/9780137142521"
     },
     "https://bookdepository.com/Learning-Kali-Linux-Ric-Messier/9781492028697": {
+        "last_price": "$53.64",
         "min_price": "$53.64",
         "name": "Learning Kali Linux : Security Testing, Penetration Testing & Ethical Hacking",
         "price": "$53.64",
         "url": "https://bookdepository.com/Learning-Kali-Linux-Ric-Messier/9781492028697"
     },
     "https://bookdepository.com/Little-Book-Common-Sense-Investing-John-C-Bogle/9781119404507": {
+        "last_price": "$25.41",
         "min_price": "$25.41",
         "name": "The Little Book of Common Sense Investing : The Only Way to Guarantee Your Fair Share of Stock Market Returns",
         "price": "$25.41",
@@ -126,36 +145,42 @@
         "url": "https://bookdepository.com/Little-Book-Common-Sense-Investing-John-C-Bogle/9781119404507"
     },
     "https://bookdepository.com/Managing-Humans-Michael-Lopp/9781484221570": {
+        "last_price": "$42.14",
         "min_price": "$42.14",
         "name": "Managing Humans : Biting and Humorous Tales of a Software Engineering Manager",
         "price": "$42.14",
         "url": "https://bookdepository.com/Managing-Humans-Michael-Lopp/9781484221570"
     },
     "https://bookdepository.com/Metasploit-Jr-David-Kennedy/9781593272883": {
+        "last_price": "$49.78",
         "min_price": "$49.78",
         "name": "Metasploit",
-        "price": "$49.78",
+        "price": "34,27 \u20ac",
         "url": "https://bookdepository.com/Metasploit-Jr-David-Kennedy/9781593272883"
     },
     "https://bookdepository.com/Mind-for-Numbers-Barbara-Oakley/9780399165245": {
+        "last_price": "$20.48",
         "min_price": "$20.48",
         "name": "A Mind for Numbers : How to Excel at Math and Science (Even If You Flunked Algebra)",
         "price": "$20.48",
         "url": "https://bookdepository.com/Mind-for-Numbers-Barbara-Oakley/9780399165245"
     },
     "https://bookdepository.com/Python-for-DevOps-Noah-Gift/9781492057697": {
+        "last_price": "$59.97",
         "min_price": "$59.97",
         "name": "Python for DevOps : Learn Ruthlessly Effective Automation",
         "price": "$59.97",
         "url": "https://bookdepository.com/Python-for-DevOps-Noah-Gift/9781492057697"
     },
     "https://bookdepository.com/Random-Walk-Down-Wall-Street-Burton-G-Malkiel/9781324002185": {
+        "last_price": "$37.91",
         "min_price": "$37.91",
         "name": "A Random Walk Down Wall Street : The Time-Tested Strategy for Successful Investing",
         "price": "$37.91",
         "url": "https://bookdepository.com/Random-Walk-Down-Wall-Street-Burton-G-Malkiel/9781324002185"
     },
     "https://bookdepository.com/Release-It-Design-Deploy-Production-Ready-Software-Michael-T-Nygard/9781680502398": {
+        "last_price": "$46.42",
         "min_price": "$46.42",
         "name": "Release It! Design and Deploy Production-Ready Software",
         "price": "$46.42",
@@ -163,28 +188,68 @@
         "url": "https://bookdepository.com/Release-It-Design-Deploy-Production-Ready-Software-Michael-T-Nygard/9781680502398"
     },
     "https://bookdepository.com/Simple-Path-Wealth-J-L-COLLINS/9781533667922": {
+        "last_price": "$29.94",
         "min_price": "$29.94",
         "name": "The Simple Path to Wealth : Your Road Map to Financial Independence and a Rich, Free Life",
         "price": "$29.94",
         "url": "https://bookdepository.com/Simple-Path-Wealth-J-L-COLLINS/9781533667922"
     },
     "https://bookdepository.com/Terraform-Up-Running-Yevgeniy-Brikman/9781492046905": {
+        "last_price": "$59.26",
         "min_price": "$59.26",
         "name": "Terraform: Up & Running : Writing Infrastructure as Code",
         "price": "$59.26",
         "url": "https://bookdepository.com/Terraform-Up-Running-Yevgeniy-Brikman/9781492046905"
     },
     "https://bookdepository.com/Upheaval-Jared-Diamond/9780241003435": {
+        "last_price": "$33.33",
         "min_price": "$33.33",
         "name": "Upheaval : How Nations Cope with Crisis and Change",
         "price": "$33.33",
         "url": "https://bookdepository.com/Upheaval-Jared-Diamond/9780241003435"
     },
     "https://bookdepository.com/Writing-Down-Bones-Natalie-Goldberg/9781611803082": {
+        "last_price": "$15.88",
         "min_price": "$15.88",
         "name": "Writing Down The Bones : Freeing the Writer Within",
         "price": "$15.88",
         "url": "https://bookdepository.com/Writing-Down-Bones-Natalie-Goldberg/9781611803082"
+    },
+    "https://www.amazon.sg/BPF-Performance-Tools-Brendan-Gregg/dp/0136554822": {
+        "min_price": "S$79.18",
+        "name": "BPF Performance Tools",
+        "price": "S$79.18",
+        "url": "https://www.amazon.sg/BPF-Performance-Tools-Brendan-Gregg/dp/0136554822"
+    },
+    "https://www.amazon.sg/Building-Secure-Reliable-Systems-Implementing/dp/1492083127": {
+        "min_price": "S$80.50",
+        "name": "Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems",
+        "price": "S$80.50",
+        "url": "https://www.amazon.sg/Building-Secure-Reliable-Systems-Implementing/dp/1492083127"
+    },
+    "https://www.amazon.sg/Cloud-Native-DevOps-Kubernetes-Applications/dp/1492040762": {
+        "min_price": "S$68.34",
+        "name": "Cloud Native DevOps with Kubernetes: Building, Deploying, and Scaling Modern Applications in the Cloud",
+        "price": "S$68.34",
+        "url": "https://www.amazon.sg/Cloud-Native-DevOps-Kubernetes-Applications/dp/1492040762"
+    },
+    "https://www.amazon.sg/Cloud-Native-containers-next-generation-applications/dp/1492053821": {
+        "min_price": "S$57.80",
+        "name": "Cloud Native: Using containers, functions, and data to build next-generation applications",
+        "price": "S$57.80",
+        "url": "https://www.amazon.sg/Cloud-Native-containers-next-generation-applications/dp/1492053821"
+    },
+    "https://www.amazon.sg/Database-Internals-Deep-Dive-Distributed-Systems/dp/1492040347": {
+        "min_price": "S$58.29",
+        "name": "Database Internals: A Deep-Dive Into How Distributed Data Systems Work",
+        "price": "S$58.29",
+        "url": "https://www.amazon.sg/Database-Internals-Deep-Dive-Distributed-Systems/dp/1492040347"
+    },
+    "https://www.amazon.sg/Design-Micahel-Keeling/dp/1680502093": {
+        "min_price": "S$46.80",
+        "name": "Design It!",
+        "price": "S$46.80",
+        "url": "https://www.amazon.sg/Design-Micahel-Keeling/dp/1680502093"
     },
     "https://www.amazon.sg/Fundamentals-Software-Architecture-Engineering-Approach/dp/1492043451": {
         "last_price": "S$74.06",
@@ -192,5 +257,71 @@
         "name": "Fundamentals of Software Architecture: An Engineering Approach",
         "price": "S$74.06",
         "url": "https://www.amazon.sg/Fundamentals-Software-Architecture-Engineering-Approach/dp/1492043451"
+    },
+    "https://www.amazon.sg/Linux-Observability-BPF-Programming-Performance/dp/1492050202": {
+        "min_price": "S$35.17",
+        "name": "Linux Observability with BPF: Advanced Programming for Performance Analysis and Networking",
+        "price": "S$35.17",
+        "url": "https://www.amazon.sg/Linux-Observability-BPF-Programming-Performance/dp/1492050202"
+    },
+    "https://www.amazon.sg/Managing-Humans-Humorous-Software-Engineering/dp/1484221575": {
+        "min_price": "S$42.54",
+        "name": "Managing Humans: Biting and Humorous Tales of a Software Engineering Manager",
+        "price": "S$42.54",
+        "url": "https://www.amazon.sg/Managing-Humans-Humorous-Software-Engineering/dp/1484221575"
+    },
+    "https://www.amazon.sg/Metasploit-David-Kennedy-Jr/dp/159327288X": {
+        "min_price": "S$41.25",
+        "name": "Metasploit",
+        "price": "S$41.25",
+        "url": "https://www.amazon.sg/Metasploit-David-Kennedy-Jr/dp/159327288X"
+    },
+    "https://www.amazon.sg/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848": {
+        "min_price": "S$36.01",
+        "name": "Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith",
+        "price": "S$36.01",
+        "url": "https://www.amazon.sg/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848"
+    },
+    "https://www.amazon.sg/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X": {
+        "min_price": "S$62.16",
+        "name": "Python for DevOps: Learn Ruthlessly Effective Automation",
+        "price": "S$62.16",
+        "url": "https://www.amazon.sg/Python-DevOps-Ruthlessly-Effective-Automation/dp/149205769X"
+    },
+    "https://www.amazon.sg/Seeking-SRE-David-N-Blank-Edelman/dp/1491978864": {
+        "min_price": "S$49.16",
+        "name": "Seeking SRE",
+        "price": "S$49.16",
+        "url": "https://www.amazon.sg/Seeking-SRE-David-N-Blank-Edelman/dp/1491978864"
+    },
+    "https://www.amazon.sg/Semantic-Software-Design-Practical-Architects/dp/1492045950": {
+        "min_price": "S$51.13",
+        "name": "Semantic Software Design: A New Theory and Practical Guide for Modern Architects",
+        "price": "S$51.13",
+        "url": "https://www.amazon.sg/Semantic-Software-Design-Practical-Architects/dp/1492045950"
+    },
+    "https://www.amazon.sg/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X": {
+        "min_price": "S$54.89",
+        "name": "Site Reliability Engineering",
+        "price": "S$54.89",
+        "url": "https://www.amazon.sg/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X"
+    },
+    "https://www.amazon.sg/Site-Reliability-Workbook-Practical-implement/dp/1492029505": {
+        "min_price": "S$33.74",
+        "name": "The Site Reliability Workbook: Practical ways to implement SRE",
+        "price": "S$33.74",
+        "url": "https://www.amazon.sg/Site-Reliability-Workbook-Practical-implement/dp/1492029505"
+    },
+    "https://www.amazon.sg/Terraform-Running-Writing-Infrastructure-Code/dp/1492046906": {
+        "min_price": "S$58.44",
+        "name": "Terraform: Up & Running: Writing Infrastructure as Code",
+        "price": "S$58.44",
+        "url": "https://www.amazon.sg/Terraform-Running-Writing-Infrastructure-Code/dp/1492046906"
+    },
+    "https://www.amazon.sg/Web-Application-Security-Exploitation-Countermeasures/dp/1492053112": {
+        "min_price": "S$54.63",
+        "name": "Web Application Security: Exploitation and Countermeasures for Modern Web Applications",
+        "price": "S$54.63",
+        "url": "https://www.amazon.sg/Web-Application-Security-Exploitation-Countermeasures/dp/1492053112"
     }
 }

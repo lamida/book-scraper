@@ -5,39 +5,6 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import json
 
-urls = [
-    "https://bookdepository.com/Java-Performance-Charlie-Hunt/9780137142521",
-    "https://bookdepository.com/Random-Walk-Down-Wall-Street-Burton-G-Malkiel/9781324002185",
-    "https://bookdepository.com/Release-It-Design-Deploy-Production-Ready-Software-Michael-T-Nygard/9781680502398",
-    "https://bookdepository.com/Inspired-Marty-Cagan/9781119387503",
-    "https://bookdepository.com/Happiness-Hypothesis-Jonathan-Haidt/9780465028023",
-    "https://bookdepository.com/Bullet-Journal-Method-Ryder-Carroll/9780008261375",
-    "https://bookdepository.com/Brave-Learner-Julie-Bogart/9780143133223",
-    "https://bookdepository.com/Upheaval-Jared-Diamond/9780241003435",
-    "https://bookdepository.com/Hyperion-Dan-Simmons/9780553283686",
-    "https://bookdepository.com/Brothers-Karamazov-Fyodor-Dostoevsky/9780099922803",
-    "https://bookdepository.com/Mind-for-Numbers-Barbara-Oakley/9780399165245",
-    "https://bookdepository.com/Writing-Down-Bones-Natalie-Goldberg/9781611803082",
-    "https://bookdepository.com/Simple-Path-Wealth-J-L-COLLINS/9781533667922",
-    "https://bookdepository.com/Little-Book-Common-Sense-Investing-John-C-Bogle/9781119404507",
-    "https://bookdepository.com/Bogleheads-Guide-Investing-Taylor-Larimore/9781118921289",
-    "https://bookdepository.com/HBRs-10-Must-Reads-on-Managing-Yourself-with-bonus-article-How-Will-You-Measure-Your-Life-by-Clayton-M-Christensen-Peter-F-Drucker/9781422157992",
-    "https://bookdepository.com/Cloud-Native-Designing-change-tolerant-software-Cornelia-Davis/9781617294297",
-    "https://bookdepository.com/Building-Secure-Reliable-Systems-Ana-Oprea/9781492083122",
-    "https://bookdepository.com/Capital-Twenty-First-Century-Thomas-Piketty/9780674430006",
-    "https://bookdepository.com/Managing-Humans-Michael-Lopp/9781484221570",
-    "https://bookdepository.com/Database-Internals-Alex-Petrov/9781492040347",
-    "https://bookdepository.com/Python-for-DevOps-Noah-Gift/9781492057697",
-    "https://bookdepository.com/Metasploit-Jr-David-Kennedy/9781593272883",
-    "https://bookdepository.com/Cloud-Native-DevOps-with-Kubernetes-John-Arundel/9781492040767",
-    "https://bookdepository.com/Cloud-Native-Boris-Scholl/9781492053828",
-    "https://bookdepository.com/Architecture-Patterns-with-Python-Harry-J-W-Percival/9781492052203",
-    "https://bookdepository.com/BPF-Performance-Tools-Brendan-Gregg/9780136554820",
-    "https://bookdepository.com/Learning-Kali-Linux-Ric-Messier/9781492028697",
-    "https://bookdepository.com/Terraform-Up-Running-Yevgeniy-Brikman/9781492046905",
-    "https://bookdepository.com/Fundamentals-Software-Architecture-Mark-Richards/9781492043454",
-    "https://www.amazon.sg/Fundamentals-Software-Architecture-Engineering-Approach/dp/1492043451",
-]
 
 class Product:
     def __init__(self):
@@ -61,6 +28,7 @@ class Product:
     def rrp(self, rrp):
         self.rrp = rrp
 
+
 def get_bd_meta(url, html):
     product = Product()
     product.url(url)
@@ -77,6 +45,7 @@ def get_bd_meta(url, html):
     if len(rrps) > 0:
         product.rrp(rrps[0].text)
     return product
+
 
 def get_amazon_meta(url, html):
     product = Product()
@@ -103,9 +72,11 @@ def get_product(url):
         print(f"Unknown provider {url}")
         return None
 
+
 STORAGE = "books.json"
 
-def run():    
+
+def load_db():
     db = dict()
     try:
         with open(STORAGE) as storage:
@@ -129,26 +100,59 @@ def run():
         with open(STORAGE, "w") as storage:
             print("The DB file is not available, create a new empty one")
             storage.write("{}")
+    return db
 
+
+def load_urls():
+    url_files = ["urls/amazonsg", "urls/bd"]
+    urls = []
+    for url_file in url_files:
+        with open(url_file) as f:
+            urls += f.read().splitlines()
+    urls = list(filter(lambda x: x != "" and not x.startswith("#"), urls))
+    return urls
+
+
+def run():
+    print("starting...")
+    print("loading db...")
+    db = load_db()
+    print("loading url...")
+    urls = load_urls()
+    print(f"getting urls: {urls}")
+
+    print("going to process urls...")
     for url in urls:
         print(f"Processing {url}")
         stored_product = db.get(url)
         product = get_product(url)
-        if stored_product == None:
+        if stored_product is None:
             print(f"No stored product for {url}")
             product.min_price(product.price)
-            db[url] = product.__dict__
+            db[url] = product
         else:
             print(f"Found stored product for {url}")
             product.last_price(stored_product.price)
-            product.min_price(product.price if product.price < stored_product.min_price else stored_product.min_price)
-            db[url] = product.__dict__
+            product.min_price(product.price if product.price <
+                              stored_product.min_price else stored_product.min_price)
+            db[url] = product
 
-    updated_db_json = json.dumps(db, sort_keys=True, indent=4, separators=(',', ': '))
+    print(f"going to dump json: {db}")
+    # Make it json seriazable
+    for url in sorted(db.keys()):
+        db[url] = db[url].__dict__
+
+    updated_db_json = json.dumps(
+        db,
+        sort_keys=True,
+        indent=4,
+        separators=(
+            ',',
+            ': '))
     with open(STORAGE, 'w') as storage:
         storage.write(updated_db_json)
 
-    print("Storing data...")
-    print(updated_db_json)
+    print("DB is updated...")
+
 
 run()
