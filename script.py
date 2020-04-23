@@ -171,7 +171,8 @@ def run():
 
     for key in sorted(db.keys()):
         product = db[key]
-        if product["price_decreased"]:
+        print(product)
+        if product.get("price_decreased", False):
             print(f"Price decreased for {product['name']} to {product['price']}")
 
 
