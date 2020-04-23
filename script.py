@@ -32,6 +32,9 @@ class Product:
     def last_update(self, last_update):
         self.last_update = last_update
 
+    def price_decreased(self, price_decreased):
+        self.price_decreased = price_decreased
+
 
 def get_bd_meta(url, html):
     product = Product()
@@ -89,9 +92,7 @@ def load_db():
             json_string = storage.read()
             json_products = json.loads(json_string)
 
-            for url in sorted(json_products.keys()):
-                p = json_products[url]
-
+            for p in json_products:
                 product = Product()
                 product.url(url)
                 product.name(p.get('name'))
@@ -100,6 +101,7 @@ def load_db():
                 product.min_price(p.get('min_price'))
                 product.rrp(p.get('rrp'))
                 product.last_update(p.get('last_update'))
+                product.price_decreased(p.get('price_decreased'))
 
                 db[p['url']] = product
     except Exception as e:
@@ -140,17 +142,23 @@ def run():
         else:
             print(f"Found stored product for {url}")
             product.last_price(stored_product.price)
-            product.min_price(product.price if product.price <
-                              stored_product.min_price else stored_product.min_price)
+            if product.price < stored_product.min_price:
+                product.min_price(product.price)
+                product.price_decreased(True)
+            else:
+                product.min_price(stored_product.min_price)
+                product.price_decreased(False)
             db[url] = product
 
     print(f"going to dump json: {db}")
     # Make it json seriazable
+    json_db = []
     for url in sorted(db.keys()):
         db[url] = db[url].__dict__
+        json_db.append(db[url])
 
     updated_db_json = json.dumps(
-        db,
+        json_db,
         sort_keys=True,
         indent=4,
         separators=(
@@ -160,6 +168,11 @@ def run():
         storage.write(updated_db_json)
 
     print("DB is updated...")
+
+    for key in sorted(db.keys()):
+        product = db[key]
+        if product["price_decreased"]:
+            print(f"Price decreased for {product['name']} to {product['price']}")
 
 
 run()
